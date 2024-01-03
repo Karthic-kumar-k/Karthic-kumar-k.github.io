@@ -72,6 +72,14 @@
 
       this.classList.add('active')
 
+      // const el = document.querySelector('body');
+      // if(this.innerHTML != 'Home') {
+      //   el.setAttribute('style', 'background: black !important');
+      // } else {
+      //   el.setAttribute('style', 'background: linear-gradient(black,rgb(54, 53, 53)) !important');
+      // }
+
+
       if (navbar.classList.contains('navbar-mobile')) {
         navbar.classList.remove('navbar-mobile')
         let navbarToggle = select('.mobile-nav-toggle')

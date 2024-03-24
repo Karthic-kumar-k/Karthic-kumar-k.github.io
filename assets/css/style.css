@@ -12,7 +12,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/kk-bg.jpeg") top right no-repeat;
+  background: #040404 url("../img/k.png") top right no-repeat;
   /* backdrop-filter: grayscale(100%); */
   background-size: cover;
   left: 0;
@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1;
   display: inline-block;
+  -webkit-text-stroke: 0.5px black;
 }
 #header h2 {
   font-size: 24px;
